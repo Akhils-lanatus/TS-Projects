@@ -2,6 +2,7 @@ import { Container } from "@mui/material";
 import AdminDashboardSearchBar from "../components/AdminDashboard/SearchBar";
 import KpiCards from "../components/AdminDashboard/KpiCards";
 import GraphContainer from "../components/AdminDashboard/GraphContainer";
+import RationAndTransactionContainer from "../components/AdminDashboard/RatioAndTransaction";
 
 const Dashboard = () => {
   return (
@@ -19,6 +20,7 @@ const Dashboard = () => {
       {/* KPI cards - Key Performance Indicators 🥵 */}
       <KpiCards />
       <GraphContainer />
+      <RationAndTransactionContainer />
     </Container>
   );
 };

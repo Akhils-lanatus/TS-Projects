@@ -14,6 +14,7 @@ export default function App() {
       <AdminDrawer>
         <Suspense fallback={<Loader open={true} />}>
           <Routes>
+            <Route path="" element={<Dashboard />} />
             <Route path="admin/dashboard" element={<Dashboard />} />
             <Route path="admin/customers" element={<Customers />} />
             <Route path="admin/transaction" element={<Transaction />} />
